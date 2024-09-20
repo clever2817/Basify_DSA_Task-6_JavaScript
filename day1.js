@@ -184,3 +184,14 @@ let salePrice = 1000;
 let profit = salePrice - purchasePrice;
 
 console.log(profit);
+
+// Problem-19 (Father and Son Age Calculation)
+let totalAge = 65;
+let ageDifference = 25;
+
+let sonAge = (totalAge - ageDifference) / 2;
+
+let fatherAge = sonAge + 25;
+
+console.log(sonAge);
+console.log(fatherAge);
