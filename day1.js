@@ -109,3 +109,11 @@ let conversionRate = 0.85;
 let convertedAmount = amount * conversionRate;
 
 console.log(convertedAmount);
+
+//Problem-11 (Interest Calculation)
+let principal = 1000;
+let rate = 5;
+
+let interest = (principal * rate) / 100;
+
+console.log(interest);
