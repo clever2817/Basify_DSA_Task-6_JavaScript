@@ -137,3 +137,11 @@ console.log(discountAmount);
 let finalAmount = price - discountAmount;
 
 console.log(finalAmount);
+
+// Problem-14 (Salary Increment Calculation)
+let currentSalary = 50000;
+let increaseRate = 10;
+
+let newSalary = currentSalary + (currentSalary * increaseRate) / 100;
+
+console.log(newSalary);
