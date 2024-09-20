@@ -74,9 +74,9 @@ let myObject = {
 let a = 500;
 let b = 200;
 
-let result = (a + b) * (a + b);
+let result1 = (a + b) * (a + b);
 
-console.log(result);
+console.log(result1);
 
 // Problem-7 (String Concatenation)
 let firstName = "Menhajul";
@@ -85,3 +85,11 @@ let lastName = "Abir";
 let fullName = firstName + " " + lastName;
 
 console.log(fullName);
+
+// Problem-8 (Percentage Calculation)
+let number = 100;
+let percentage = 10;
+
+let result = (number * percentage) / 100;
+
+console.log(result);
