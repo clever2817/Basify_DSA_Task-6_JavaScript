@@ -93,3 +93,11 @@ let percentage = 10;
 let result = (number * percentage) / 100;
 
 console.log(result);
+
+// Problem-9 (Average Calculation of two numbers)
+let number1 = 10;
+let number2 = 20;
+
+let average = (number1 + number2) / 2;
+
+console.log(average);
