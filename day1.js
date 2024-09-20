@@ -70,3 +70,12 @@ let myObject = {
   isStudent: true,
   institution: "Basify",
 };
+
+// Problem-6 ((a + b)^2)
+
+let a = 500;
+let b = 200;
+
+let result = (a + b) * (a + b);
+
+console.log(result);
