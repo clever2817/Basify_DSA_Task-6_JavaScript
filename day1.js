@@ -125,3 +125,15 @@ let quantity = 3;
 let totalPrice = pricePerItem * quantity;
 
 console.log(totalPrice);
+
+// Problem-13 (Discounted Price Calculation)
+let price = 100;
+let discountRate = 10;
+
+let discountAmount = (price * discountRate) / 100;
+
+console.log(discountAmount);
+
+let finalAmount = price - discountAmount;
+
+console.log(finalAmount);
