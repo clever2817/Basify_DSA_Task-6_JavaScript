@@ -88,9 +88,9 @@ console.log(fullName);
 
 // Problem-8 (Percentage Calculation)
 let number = 100;
-let percentage = 10;
+let percentage1 = 10;
 
-let result = (number * percentage) / 100;
+let result = (number * percentage1) / 100;
 
 console.log(result);
 
@@ -153,3 +153,11 @@ let taxRate = 15;
 let taxAmount = (income * taxRate) / 100;
 
 console.log(taxAmount);
+
+// Problem-16 (Percentage of a Score Calculation)
+let score = 85;
+let totalScore = 100;
+
+let percentage = (score / totalScore) * 100;
+
+console.log(percentage);
