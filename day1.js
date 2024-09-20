@@ -176,3 +176,11 @@ let percentageDifference2 = (difference / number2) * 100;
 
 console.log(percentageDifference1);
 console.log(percentageDifference2);
+
+// Problem-18 (Profit Calculation)
+let purchasePrice = 800;
+let salePrice = 1000;
+
+let profit = salePrice - purchasePrice;
+
+console.log(profit);
