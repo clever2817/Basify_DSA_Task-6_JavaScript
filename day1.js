@@ -33,7 +33,6 @@ console.log(mul);
 console.log(div);
 
 // problem-5 (Data Types: Primitive & Non-primitive)
-
 //Primitive Data Types
 
 // String
@@ -72,10 +71,17 @@ let myObject = {
 };
 
 // Problem-6 ((a + b)^2)
-
 let a = 500;
 let b = 200;
 
 let result = (a + b) * (a + b);
 
 console.log(result);
+
+// Problem-7 (String Concatenation)
+let firstName = "Menhajul";
+let lastName = "Abir";
+
+let fullName = firstName + " " + lastName;
+
+console.log(fullName);
