@@ -101,3 +101,11 @@ let number2 = 20;
 let average = (number1 + number2) / 2;
 
 console.log(average);
+
+// Problem-10 (Capital Conversion)
+let amount = 100;
+let conversionRate = 0.85;
+
+let convertedAmount = amount * conversionRate;
+
+console.log(convertedAmount);
