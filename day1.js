@@ -95,10 +95,10 @@ let result = (number * percentage1) / 100;
 console.log(result);
 
 // Problem-9 (Average Calculation of two numbers)
-let number1 = 10;
-let number2 = 20;
+let num_1 = 10;
+let num_2 = 20;
 
-let average = (number1 + number2) / 2;
+let average = (num_1 + num_2) / 2;
 
 console.log(average);
 
@@ -161,3 +161,18 @@ let totalScore = 100;
 let percentage = (score / totalScore) * 100;
 
 console.log(percentage);
+
+//Problem-17 (Percentage of Difference of two numbers)
+let number1 = 100;
+let number2 = 80;
+
+let difference = number1 - number2;
+
+console.log(difference);
+
+let percentageDifference1 = (difference / number1) * 100;
+
+let percentageDifference2 = (difference / number2) * 100;
+
+console.log(percentageDifference1);
+console.log(percentageDifference2);
