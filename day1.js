@@ -181,9 +181,9 @@ console.log(percentageDifference2);
 let purchasePrice = 800;
 let salePrice = 1000;
 
-let profit = salePrice - purchasePrice;
+let profit1 = salePrice - purchasePrice;
 
-console.log(profit);
+console.log(profit1);
 
 // Problem-19 (Father and Son Age Calculation)
 let totalAge = 65;
@@ -195,3 +195,15 @@ let fatherAge = sonAge + 25;
 
 console.log(sonAge);
 console.log(fatherAge);
+
+// Problem-20 (T-Shirt Price Calculation)
+let sellingPrice = 450;
+let profitRate = 1 / 8;
+
+let profit = sellingPrice * profitRate;
+
+console.log(profit);
+
+let costPrice = sellingPrice - profit;
+
+console.log(costPrice);
