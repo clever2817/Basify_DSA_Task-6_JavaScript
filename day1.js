@@ -117,3 +117,11 @@ let rate = 5;
 let interest = (principal * rate) / 100;
 
 console.log(interest);
+
+// Problem-12 (Total Price Calculation)
+let pricePerItem = 50;
+let quantity = 3;
+
+let totalPrice = pricePerItem * quantity;
+
+console.log(totalPrice);
