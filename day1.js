@@ -145,3 +145,11 @@ let increaseRate = 10;
 let newSalary = currentSalary + (currentSalary * increaseRate) / 100;
 
 console.log(newSalary);
+
+// Problem-15 (Income Tax Calculation)
+let income = 30000;
+let taxRate = 15;
+
+let taxAmount = (income * taxRate) / 100;
+
+console.log(taxAmount);
